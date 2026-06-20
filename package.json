@@ -1,0 +1,14 @@
+{
+  "name": "nucleo-social-media-esm-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproduction of nucleo-social-media failing to import under Node ESM",
+  "type": "module",
+  "scripts": {
+    "reproduce": "node reproduce.mjs",
+    "mechanism": "node mechanism/check.mjs"
+  },
+  "dependencies": {
+    "nucleo-social-media": "1.0.2"
+  }
+}
